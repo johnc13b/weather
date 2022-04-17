@@ -1,0 +1,21 @@
+body {
+    font-size: 1em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.header {
+    padding: 20px 35px;
+    background-color: #c9dfec;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.s001 {
+    background-color: lightgray;
+    padding: 0.5em;
+}
+
+.input {
+    grid-row: 1;
+}
