@@ -2,14 +2,27 @@ body {
     font-size: 1em;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     width: 90%;
+    margin: 0 auto;
 }
 
-.header {
-    padding: 20px 35px;
+header {
+    position: relative;
+    padding: 10px 15px;
     background-color: #c9dfec;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    border-radius: 10px;
+}
+
+footer {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 96%;
+    padding: 10px 15px;
+    background-color: #c9dfec;
+    display: flex;
     border-radius: 10px;
 }
 
@@ -20,6 +33,7 @@ body {
 .search {
     background-color: lightgray;
     padding: 0.5em;
+    width: 200px;
     float: left;
     border-radius: 10px;
     padding-bottom: 15px;
@@ -36,7 +50,71 @@ body {
 
 .infoCurrent {
     background-color: lightcyan;
+    width: auto;
     padding: 0.5em;
     float: left;
     border-radius: 10px;
+}
+
+.outlookForecast {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: normal;
+        align-items: normal;
+        align-content: normal;
+}
+
+.flex-items:nth-child(1) {
+        display: block;
+        flex-grow: 0;
+        flex-shrink: 1;
+        flex-basis: auto;
+        align-self: auto;
+        order: 0;
+}
+
+.flex-items:nth-child(2) {
+        display: block;
+        flex-grow: 0;
+        flex-shrink: 1;
+        flex-basis: auto;
+        align-self: auto;
+        order: 0;
+}
+
+.flex-items:nth-child(3) {
+        display: block;
+        flex-grow: 0;
+        flex-shrink: 1;
+        flex-basis: auto;
+        align-self: auto;
+        order: 0;
+}
+
+.flex-items:nth-child(4) {
+        display: block;
+        flex-grow: 0;
+        flex-shrink: 1;
+        flex-basis: auto;
+        align-self: auto;
+        order: 0;
+}
+
+.flex-items:nth-child(5) {
+        display: block;
+        flex-grow: 0;
+        flex-shrink: 1;
+        flex-basis: auto;
+        align-self: auto;
+        order: 0;
+}
+
+
+
+@media screen and (max-width: 768px), screen and (max-width: 575px) {
+    .row {
+        height: auto;
+        margin-top: 20px;
+}
 }

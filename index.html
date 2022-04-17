@@ -12,11 +12,11 @@
 </head>
 <body>
 
-<div class="header">
+<header>
     <h1>
         Weather Outlook
     </h1>
-</div>
+</header>
 
 <div class="container">
     <div class="s001">
@@ -24,9 +24,9 @@
         <div class="search">
             <h2>Search City</h2>
             <div class="input">
-                <input type="text" class="searchBox" placeholder="Search City">
+                <input type="text" class="searchBox" placeholder="Enter City Here">
                 <div class="searchButton">
-                    <button type="submit">
+                    <button class="searchCommit" type="search">
                         <i class="fa fa-search">
                         </i>
                     </button>
@@ -50,15 +50,39 @@
                 </div>
             </div>
 
-            <div class="weatherForecast">
+            <div class="curentForecast">
                 <h3>5-Day Forecast - </h3>
+                <div class="outlookForecast">
+                    <div class="day1" >
+                        <p>Temp:</p>
+                        <p>Humidity:</p>
+                    </div>
+                    <div class="day2" >
+                        <p>Temp:</p>
+                        <p>Humidity:</p>
+                    </div>
+                    <div class="day3">
+                        <p>Temp:</p>
+                        <p>Humidity:</p>
+                    </div>
+                    <div class="day4">
+                        <p>Temp:</p>
+                        <p>Humidity:</p>
+                    </div>
+                    <div class="day5" >
+                        <p>Temp:</p>
+                        <p>Humidity:</p>
+                    </div>
+                </div>
+
             </div>
 
     </div>
-
 </div>
 
-
+<footer>
+    <p>Weather Outlook &copy 2022</p>
+</footer>
 
 <script src ="./assets/js/script.js"></script>
 </body>
