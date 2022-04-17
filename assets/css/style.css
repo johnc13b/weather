@@ -1,6 +1,7 @@
 body {
     font-size: 1em;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 90%;
 }
 
 .header {
@@ -9,13 +10,33 @@ body {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    border-radius: 10px;
 }
 
-.s001 {
+.container {
+    margin: 0 auto;
+}
+
+.search {
     background-color: lightgray;
     padding: 0.5em;
+    float: left;
+    border-radius: 10px;
+    padding-bottom: 15px;
 }
 
-.input {
-    grid-row: 1;
+.searchButton {
+    padding-bottom: 10px;
+}
+
+.currentWeather {
+    border: 2px solid;
+    padding-left: 0.5em;
+}
+
+.infoCurrent {
+    background-color: lightcyan;
+    padding: 0.5em;
+    float: left;
+    border-radius: 10px;
 }
