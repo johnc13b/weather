@@ -1,9 +1,9 @@
 // API Key f4ca63fe60c915639b5226ae9b65c99f
 
 var cities = [];
-var cityFormEl=document.querySelector("#search-form");
+var cityFormEl=document.querySelector("#searchInput");
 var cityInputEl=document.querySelector("#city");
-var weatherContainerEl=document.querySelector("#current-weather-container");
+var weatherContainerEl=document.querySelector("#result-weather");
 var citySearchInputEl = document.querySelector("#searched-city");
 var forecastTitle = document.querySelector("#forecast");
 var forecastContainerEl = document.querySelector("#fiveday-container");

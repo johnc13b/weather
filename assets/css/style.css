@@ -32,12 +32,6 @@ footer {
     background-color: #c9dfec;
     display: flex;
     border-radius: 5px;
-    align-content: center;
-    margin: 5px auto;
-}
-
-.row {
-    margin: 0 auto;
 }
 
 .search {
