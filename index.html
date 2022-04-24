@@ -5,7 +5,7 @@
     <meta charset="UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
-
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"> -->
     <link rel="stylesheet" href="./assets/css/style.css">
 
     <title>Weather Outlook Console</title>
@@ -13,45 +13,58 @@
 
 <body>
 
-<header>
-    <h1>Weather Console</h1>
-</header>
+    <div id="wrapper">
 
-<section>
-    <div class="search">
-        <form id="searchInput">
-            <h4>Search</h4>
-            <input id="city" type="text" placeholder="Enter City Here">
-            <button class="btn btn-primary" type="submit">Search</button>
-        </form>
+        <div id="headerwrap">
+            <div id="header">
+                <h1>Weather Console</h1>
+            </div>
+        </div>
+
+        <div id="leftcolumnwrap">
+            <div id="leftcolumn">
+                <h3>Search</h3>
+                <form id="form"> 
+                    <input id="search-city" placeholder="Enter City Here">
+                    <button id="search-button">Search</button>
+                    </form>
 <br>
-        <div class="history" id="past-search-buttons">
-            <ul class="listHistory">
-            </ul>
-        </div>
-    </div>
-
-    <div class="result">
-        <div class="" id="current-forecast">
-            <div class = "col-12">
-                <h2 id="searched-city"></h2>
-                <div class="list-group" id="result-weather"></div>
-            </div>  
+            <div class="history" id="search-history">
+                <ul class="listHistory">
+                </ul>
+            </div>
+            </div>
         </div>
 
-        <div class="" id="five-day-forecast">
-                <h2 class="col-12" id="forecast"></h2>
-                <div class="d-flex" id="fiveday-container"></div>
-        </div> 
+        <div id="contentwrap">
+            <div id="content">
+                <h3>Weather </h3>
+<br>
+            <div id="current-weather">
+                <div class="projector">
+                    <h4 id="cityLocation"></h4>
+                    <h4 id="date-label"></h4>
+                    <h4 id="temp-label"></h4>
+                    <h4 id="hu-label"></h4>
+                    <h4 id="wind-label"></h4>
+                    <h4 id="uv-label"></h4>
+                </div>
 
-    </div>
-</section>
+            </div>
+            </div>
+        </div>
 
-<footer>
-    <p>Weather Outlook Provided by <a href="https://openweathermap.org/">Open Weather API</a></p>
-</footer>
+        <div id="footerwrap">
+            <div id="footer">
+                <h4>Weather Outlook Provided by <a href="https://openweathermap.org/">Open Weather API</h4>
+            </div>
+        </div>
+
+</div>
 
 <script src ="./assets/js/script.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 
 </body>
 </html>
